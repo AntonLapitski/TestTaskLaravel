@@ -1,3 +1,7 @@
+Я исользовал один индекс для поиска ну я повесил его на таблицу новостей на поле нейм просто мне показалось это логичным потому что би деревья работают по сравнению и вхождению а архитектурные паттерны, я использовал только ларавелевские встроенные.
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
