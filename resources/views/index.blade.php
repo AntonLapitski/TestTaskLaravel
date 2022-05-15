@@ -164,7 +164,7 @@
                     <div class="col-md-9">
                         <ul>
                             @foreach ($categories as $category)
-                                <li>{{ $category->name }}</li><input type="checkbox" id="subfolder1" name="{{'subfolder1' . $category->id }}">
+                                <li>{{ $category->name }}</li><input type="checkbox" id="subfolder1" name="{{$category->name}}" value="{{$category->id}}">
                                 <ul>
                                     @foreach ($category->childrenCategories as $childCategory)
                                         @include('child_category', ['child_category' => $childCategory])
